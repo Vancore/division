@@ -316,7 +316,7 @@ header h1 {
 
     /* Спрятан слева за экран */
     transform: translateX(-120%);
-    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1); /* Плавный выезд */
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .sidebar-card.active {
