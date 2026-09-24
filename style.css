@@ -313,8 +313,6 @@ header h1 {
     padding: 24px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(12px);
-
-    /* Спрятан слева за экран */
     transform: translateX(-120%);
     transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
