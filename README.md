@@ -4,6 +4,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Site-division.daniilproduction.com-d4b096?style=for-the-badge&logo=googlechrome&logoColor=white)](https://division.daniilproduction.com/)
 [![Telegram](https://img.shields.io/badge/Telegram-Daniil_Production-24A1DE?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DaniilProduction)
+[![Website Status](https://img.shields.io/github/actions/workflow/status/Vancore/division/health-check.yml?style=for-the-badge&label=Website%20Status)](https://github.com/Vancore/division/actions/workflows/health-check.yml)
 
 <br/>
 
@@ -61,6 +62,9 @@ This principle gave birth to science, the industrial assembly line, engineering 
 ### 📁 Repository Structure
 
 ```text
+├── .github/
+│   └── workflows/
+│       └── health-check.yml # Automated uptime & health monitoring
 ├── img/                # Visual illustrations for each chapter (1–6) & favicon
 ├── ru/
 │   └── index.html      # Russian edition (/ru/)

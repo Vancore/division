@@ -4,6 +4,7 @@
 
 [![Сайт](https://img.shields.io/badge/Сайт-division.daniilproduction.com-d4b096?style=for-the-badge&logo=googlechrome&logoColor=white)](https://division.daniilproduction.com/ru/)
 [![Telegram](https://img.shields.io/badge/Telegram-Daniil_Production-24A1DE?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DaniilProduction)
+[![Статус](https://img.shields.io/github/actions/workflow/status/Vancore/division/health-check.yml?style=for-the-badge&label=Статус%20сайта)](https://github.com/Vancore/division/actions/workflows/health-check.yml)
 
 <br/>
 
@@ -61,6 +62,9 @@
 ### 📁 Структура репозитория
 
 ```text
+├── .github/
+│   └── workflows/
+│       └── health-check.yml # Мониторинг доступности сайта
 ├── img/                # Иллюстрации к главам (1–6) и фавикон icon.svg
 ├── ru/
 │   └── index.html      # Русская версия страницы (/ru/)
