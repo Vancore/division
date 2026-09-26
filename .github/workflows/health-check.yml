@@ -1,0 +1,27 @@
+name: Website Health Check
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        url:
+          - 'https://division.daniilproduction.com/'
+          - 'https://division.daniilproduction.com/ru/'
+    steps:
+      - name: Ping URL
+        run: |
+          STATUS=$(curl -o /dev/null -s -w "%{http_code}" -L --connect-timeout 10 --max-time 20 "${{ matrix.url }}")
+          CODE=$?
+          if [ $CODE -ne 0 ] || [ "$STATUS" -ne 200 ]; then
+            echo "::error::Check failed for ${{ matrix.url }} (HTTP $STATUS, exit code $CODE)"
+            exit 1
+          fi
