@@ -387,3 +387,18 @@ header h1 {
 .sidebar-link:hover .ch-num {
     color: #ffae73;
 }
+
+
+
+.reading-meta {
+    margin-top: 26px;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    color: #9099a3;
+    background-color: rgba(24, 30, 37, 0.6);
+    border: 1px solid rgba(207, 172, 147, 0.2);
+    padding: 4px 14px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
