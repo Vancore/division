@@ -256,10 +256,7 @@ header h1 {
 
 
 .menu-toggle-btn {
-    position: fixed;
-    top: 24px;
-    left: 32px;
-    z-index: 998;
+    position: static;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -401,4 +398,147 @@ header h1 {
     padding: 4px 14px;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.top-controls-left {
+    position: fixed;
+    top: 24px;
+    left: 32px;
+    z-index: 998;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.audio-btn.playing {
+    border-color: #ffae73;
+    color: #ffae73;
+    box-shadow: 0 0 12px rgba(255, 174, 115, 0.4);
+}
+
+
+.music-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.music-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.037);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.music-item:hover {
+    background: rgba(255, 255, 255, 0.066);
+    border-color: rgba(212, 176, 150, 0.223);
+}
+
+.music-item.active {
+    background: rgba(255, 174, 115, 0.08);
+    border-color: rgba(255, 174, 115, 0.35);
+}
+
+.music-item-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.music-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8b6a52;
+}
+
+.music-item.active .music-num {
+    color: #ffae73;
+}
+
+.music-name {
+    font-size: 14px;
+    color: #f4f9ff;
+    font-weight: 500;
+}
+
+.music-author {
+    font-size: 11px;
+    color: #8e98a3;
+}
+
+.music-duration {
+    font-size: 12px;
+    color: #8e98a3;
+    font-variant-numeric: tabular-nums;
+}
+
+.player-panel {
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.player-time-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #8e98a3;
+    margin-bottom: 6px;
+    font-variant-numeric: tabular-nums;
+}
+
+.player-slider {
+    width: 100%;
+    height: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: rgba(255, 255, 255, 0.136);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+    accent-color: #ffae73;
+}
+
+.player-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ffae73;
+    cursor: pointer;
+}
+
+.player-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.player-play-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 173, 115, 0.095);
+    border: 1px solid #ffae73;
+    color: #ffae73;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.player-play-btn:hover {
+    background: #ffae73;
+    color: #0e1218;
+    transform: scale(1.05);
 }

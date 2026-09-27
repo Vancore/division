@@ -48,10 +48,16 @@
 </head>
 
 <body>
-    <button id="menu-toggle" class="menu-toggle-btn" aria-label="Открыть оглавление">
-        <span class="menu-icon">☰</span>
-        <span class="menu-text">Главы</span>
-    </button>
+    <div class="top-controls-left">
+        <button id="menu-toggle" class="menu-toggle-btn" aria-label="Open table of contents">
+            <span class="menu-icon">☰</span>
+            <span class="menu-text">Главы</span>
+        </button>
+
+        <button id="music-toggle" class="menu-toggle-btn audio-btn" aria-label="Open soundtrack">
+            <span class="menu-icon">🎧</span>
+        </button>
+    </div>
     <div id="sidebar-overlay" class="sidebar-overlay"></div>
     <aside id="sidebar" class="sidebar-card">
         <div class="sidebar-header">
@@ -87,7 +93,49 @@
         </nav>
     </aside>
 
+    <aside id="music-sidebar" class="sidebar-card">
+        <div class="sidebar-header">
+            <span class="sidebar-title">МУЗЫКА ДЛЯ ЧТЕНИЯ</span>
+            <button id="music-close" class="sidebar-close-btn">&times;</button>
+        </div>
+        <div class="music-list">
+            <div class="music-item active" data-index="0">
+                <div class="music-item-info">
+                    <span class="music-num">1</span>
+                    <div>
+                        <div class="music-name">Ambient Cinematic</div>
+                        <div class="music-author">VelarioMusic</div>
+                    </div>
+                </div>
+                <span class="music-duration">3:23</span>
+            </div>
+            <div class="music-item" data-index="1">
+                <div class="music-item-info">
+                    <span class="music-num">2</span>
+                    <div>
+                        <div class="music-name">Documentary Cinematic</div>
+                        <div class="music-author">leberch</div>
+                    </div>
+                </div>
+                <span class="music-duration">2:38</span>
+            </div>
+        </div>
+        <div class="player-panel">
+            <div class="player-time-row">
+                <span id="player-current-time">0:00</span>
+                <span id="player-total-time">3:23</span>
+            </div>
+            
+            <input type="range" id="player-progress" class="player-slider" min="0" max="100" value="0" step="0.1">
+
+            <div class="player-actions">
+                <button id="player-play-btn" class="player-play-btn" aria-label="Play/Pause">▶</button>
+            </div>
+        </div>
+    </aside>
+
     <div id="progress-bar"></div>
+    <audio id="main-audio" preload="none"></audio>
     <div class="top-lang-switch">
         <a class="lang-btn active">RU</a>
         <span class="lang-divider">|</span>
