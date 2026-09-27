@@ -50,6 +50,8 @@ This principle gave birth to science, the industrial assembly line, engineering 
 ### ⚡ Highlights & Architecture
 
 * **Zero Dependencies:** Handcrafted with pure Semantic HTML5, CSS3, and Vanilla JavaScript. No node modules, build steps, or external frontend bloat.
+* **Immersive Soundtrack:** Built-in bespoke audio player with a curated 6-minute ambient score matching the essay's reading time, featuring smooth progression and playback scrubbing. Zero external libraries.
+* **Media Optimization:** All chapter artwork compressed into modern WebP format, reducing total graphic payload to ~300 KB across the entire essay.
 * **Typographic Focus:** Tailored for comfortable, distraction-free reading with a responsive progress indicator and table of contents drawer.
 * **Engineered for Search & Social:**
   * Strict multilingual setup via canonical URLs and bidirectional `hreflang` tags.
@@ -66,13 +68,14 @@ This principle gave birth to science, the industrial assembly line, engineering 
 │   └── workflows/
 │       └── health-check.yml # Automated uptime & health monitoring
 ├── img/                # Visual illustrations for each chapter (1–6) & favicon
+├── audio/              # Curated reading soundtrack (ambient & tension parts)
 ├── ru/
 │   └── index.html      # Russian edition (/ru/)
 ├── .nojekyll           # Bypasses default Jekyll processing on GitHub Pages
 ├── CNAME               # Custom domain config (division.daniilproduction.com)
 ├── index.html          # English edition (Root /)
 ├── robots.txt          # Crawler instructions & sitemap locator
-├── script.js           # Scroll progress tracking & sidebar logic
+├── script.js           # Scroll progress, navigation drawers & audio player logic
 ├── sitemap.xml         # Search index declaration for both locales
 └── style.css           # Styling, typography & theme system
 ```
