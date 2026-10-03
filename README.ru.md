@@ -10,6 +10,8 @@
 
 **[English](README.md)** • **[Русский](README.ru.md)**
 
+> 📖 **[Скачать полную монографию (PDF, 48 страниц)](https://github.com/Vancore/division/releases/latest/download/MATERIAL.RESISTANCE.RU.pdf)**
+
 <br/>
 
 <img src="img/1.png" width="680" alt="Искусство разделять" style="border-radius: 10px;"/>

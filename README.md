@@ -6,9 +6,12 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Daniil_Production-24A1DE?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DaniilProduction)
 [![Website Status](https://img.shields.io/github/actions/workflow/status/Vancore/division/health-check.yml?style=for-the-badge&label=Website%20Status)](https://github.com/Vancore/division/actions/workflows/health-check.yml)
 
+
 <br/>
 
 **[English](README.md)** • **[Русский](README.ru.md)**
+
+> 📖 **[Download Complete Monograph (PDF, 48 pages)](https://github.com/Vancore/division/releases/latest/download/MATERIAL.RESISTANCE.pdf)**
 
 <br/>
 
