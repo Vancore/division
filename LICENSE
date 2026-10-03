@@ -1,6 +1,11 @@
-MIT License
+# License
 
-Copyright (c) 2026 Daniil
+This repository contains both the source code of the website and the original literary work **"Material Resistance"** (Part I: Division).
+
+### 1. Code & Website Engine
+The software, web architecture, components, and scripts in this repository are licensed under the **MIT License**:
+
+Copyright (c) 2026 Daniil (DANIIL PRODUCTION)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +24,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+### 2. Book Content, Essays, & Visual Assets
+**The text of the book "Material Resistance", essay chapters, philosophical concepts, and original artwork are strictly NOT licensed under the MIT License.**
+
+All text, literary essays, and visual materials are licensed under:
+**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
+
+Under this license, you are free to:
+- **Share** — copy and redistribute the material in any medium or format.
+
+Under the following terms:
+- **Attribution (BY)** — You must give appropriate credit to **Daniil (DANIIL PRODUCTION)** and provide a link to the original source (`division.daniilproduction.com`).
+- **NonCommercial (NC)** — You may **NOT** use the material for commercial purposes (selling copies, putting behind paywalls, or monetizing in any form).
+- **NoDerivatives (ND)** — If you remix, transform, or build upon the material, you may **NOT** distribute the modified material.
+
+Official License Details: https://creativecommons.org/licenses/by-nc-nd/4.0/
